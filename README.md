@@ -1,4 +1,5 @@
-# nodejs-configvention
+# [nodejs-configvention](http://joelpurra.github.com/nodejs-configvention)
+http://joelpurra.github.com/nodejs-configvention
 
 A node.js configuration convention with a minimal readonly interface.
 
