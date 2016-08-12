@@ -14,8 +14,7 @@
     "url": "git@github.com:joelpurra/nodejs-configvention.git"
   },
   "directories": {
-    "lib": "./lib",
-    "example": "./example"
+    "lib": "./lib"
   },
   "bugs": {
     "url": "https://github.com/joelpurra/nodejs-configvention/issues",
@@ -28,5 +27,5 @@
   "dependencies": {
     "nconf": "^0.8.4"
   },
-  "license": "MIT, BSD, GPL"
+  "license": "(MIT OR BSD-2-Clause OR GPL-3.0)"
 }
