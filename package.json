@@ -6,7 +6,7 @@
     "email": "code+npm@joelpurra.com",
     "url": "http://joelpurra.com/"
   },
-  "homepage": "http://joelpurra.github.com/nodejs-configvention/",
+  "homepage": "https://github.com/joelpurra/nodejs-configvention",
   "description": "Configuration convention with a minimal readonly interface.",
   "main": "./lib/configvention",
   "repository": {
