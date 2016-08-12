@@ -41,6 +41,15 @@ Neither `my-app.js.config.json` nor `my-app.js.defaults.config.json` are require
 
 
 
+## Debugging
+
+To get some insight on files loaded, configuration values read etcetera, enable debugging from the command line.
+
+```bash
+DEBUG='configvention:*' node my-app.js
+```
+
+
 ## Alternatives
 
 Some alternatives found glancing over npm modules [dependent](https://npmjs.org/browse/depended/nconf) on [nconf](https://npmjs.org/package/nconf).
