@@ -51,7 +51,7 @@ Some alternatives found glancing over npm modules [dependent](https://npmjs.org/
 
 
 ## License
-Copyright (c) 2012, Joel Purra <http://joelpurra.se/>
+Copyright (c) 2012, 2016, Joel Purra <http://joelpurra.se/>
 All rights reserved.
 
 When using nodejs-configvention, comply to at least one of the three available licenses: BSD, MIT, GPL.
@@ -61,4 +61,3 @@ Please see the LICENSE file for details.
 
 
 [![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/joelpurra/nodejs-configvention/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
-
