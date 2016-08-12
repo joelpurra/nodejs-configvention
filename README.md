@@ -1,7 +1,26 @@
-# [nodejs-configvention](http://joelpurra.github.com/nodejs-configvention)
-http://joelpurra.github.com/nodejs-configvention
+# [nodejs-configvention](https://github.com/joelpurra/nodejs-configvention)
 
-A node.js configuration convention with a minimal readonly interface.
+https://github.com/joelpurra/nodejs-configvention
+
+A node.js *configuration convention* with a minimal readonly interface. Reads configuration values from the environment, arguments, override configuration file, defaults configuration file.
+
+
+
+## Usage
+
+```javascript
+var configuration = require("configvention");
+
+var something = configuration.get("something");
+```
+
+
+
+## Installation
+
+```bash
+npm install --save configvention
+```
 
 
 ## Convention
@@ -22,23 +41,6 @@ Neither `my-app.js.config.json` nor `my-app.js.defaults.config.json` are require
 
 
 
-## Usage
-
-```javascript
-var configuration = require("configvention");
-
-var something = configuration.get("something");
-```
-
-
-## Installation
-
-```bash
-npm install configvention
-```
-
-
-
 ## Alternatives
 
 Some alternatives found glancing over npm modules [dependent](https://npmjs.org/browse/depended/nconf) on [nconf](https://npmjs.org/package/nconf).
@@ -49,15 +51,10 @@ Some alternatives found glancing over npm modules [dependent](https://npmjs.org/
 
 
 
+---
 
-## License
-Copyright (c) 2012, 2016, Joel Purra <http://joelpurra.se/>
+Copyright (c) 2012, 2016, [Joel Purra](http://joelpurra.com/)
 All rights reserved.
 
-When using nodejs-configvention, comply to at least one of the three available licenses: BSD, MIT, GPL.
+When using [nodejs-configvention](https://github.com/joelpurra/nodejs-configvention), comply to at least one of the three available licenses: MIT, BSD-2-Clause, GPL-3.0.
 Please see the LICENSE file for details.
-
-
-
-
-[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/joelpurra/nodejs-configvention/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
