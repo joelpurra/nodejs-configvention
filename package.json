@@ -2,31 +2,31 @@
   "name": "configvention",
   "version": "1.0.2",
   "author": {
-      "name": "Joel Purra",
-      "email": "code+npm@joelpurra.com",
-      "url": "http://joelpurra.com/"
-    },
+    "name": "Joel Purra",
+    "email": "code+npm@joelpurra.com",
+    "url": "http://joelpurra.com/"
+  },
   "homepage": "http://joelpurra.github.com/nodejs-configvention/",
   "description": "Configuration convention with a minimal readonly interface.",
   "main": "./lib/configvention",
   "repository": {
-      "type": "git",
-      "url": "git@github.com:joelpurra/nodejs-configvention.git"
-    },
+    "type": "git",
+    "url": "git@github.com:joelpurra/nodejs-configvention.git"
+  },
   "directories": {
-      "lib": "./lib",
-      "example": "./example"
-    },
+    "lib": "./lib",
+    "example": "./example"
+  },
   "bugs": {
-      "url" : "https://github.com/joelpurra/nodejs-configvention/issues",
-      "email" : "code+configvention@joelpurra.com"
-    },
+    "url": "https://github.com/joelpurra/nodejs-configvention/issues",
+    "email": "code+configvention@joelpurra.com"
+  },
   "keywords": [
-      "configuration",
-      "convention"
-    ],
-  "dependencies" : {
-      "nconf"   :  "0.6.x"
-    }, 
+    "configuration",
+    "convention"
+  ],
+  "dependencies": {
+    "nconf": "^0.8.4"
+  },
   "license": "MIT, BSD, GPL"
 }
