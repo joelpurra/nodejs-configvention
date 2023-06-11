@@ -9,7 +9,7 @@ Available from [npm](https://www.npmjs.com/) as [`configvention`](https://www.np
 ```javascript
 import configuration from "configvention";
 
-var something = configuration.get("something");
+const something = configuration.get("something");
 ```
 
 ## Installation
