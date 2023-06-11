@@ -6,13 +6,14 @@ When using nodejs-configvention, comply to at least one of the three available l
 Please see the respective LICENSE file for details, or the links below for more information.
 
 The BSD 2-Clause License
-https://opensource.org/licenses/BSD-2-Clause
-https://en.wikipedia.org/wiki/BSD_license
+https://opensource.org/license/bsd-2-clause/
+https://en.wikipedia.org/wiki/BSD_licenses
 
 The MIT License
-https://opensource.org/licenses/MIT
+https://opensource.org/licenses/mit
 https://en.wikipedia.org/wiki/MIT_License
 
-GNU General Public License, version 3 (GPL-3.0)
-https://opensource.org/licenses/gpl-3.0.html
+GNU General Public License, version 3 (GPL-3.0-or-later)
+https://www.gnu.org/licenses/gpl-3.0.html
+https://opensource.org/licenses/gpl-3.0/
 https://en.wikipedia.org/wiki/GNU_General_Public_License
