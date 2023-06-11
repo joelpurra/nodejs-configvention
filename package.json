@@ -25,8 +25,8 @@
     "convention"
   ],
   "dependencies": {
-    "debug": "^4.3.1",
-    "nconf": "^0.11.2"
+    "debug": "^4.3.4",
+    "nconf": "^0.11.4"
   },
   "license": "(MIT OR BSD-2-Clause OR GPL-3.0)"
 }
