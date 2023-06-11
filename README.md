@@ -1,10 +1,8 @@
 # [nodejs-configvention](https://joelpurra.com/projects/nodejs-configvention/)
 
-A node.js *configuration convention* with a minimal readonly interface. Reads configuration values from the environment, arguments, override configuration file, defaults configuration file.
+A node.js _configuration convention_ with a minimal readonly interface. Reads configuration values from the environment, arguments, override configuration file, defaults configuration file.
 
 Available from [npm](https://www.npmjs.com/) as [`configvention`](https://www.npmjs.com/package/configvention).
-
-
 
 ## Usage
 
@@ -14,18 +12,15 @@ import configuration from "configvention";
 var something = configuration.get("something");
 ```
 
-
-
 ## Installation
 
 ```bash
 npm install --save configvention@latest
 ```
 
-
 ## Convention
 
-This is the order settings are *read* for the example node application `my-app.js`. `configuration.get("something")` will look for `something` in this order. When the the first `something` is found, the search is stopped and the value is returned.
+This is the order settings are _read_ for the example node application `my-app.js`. `configuration.get("something")` will look for `something` in this order. When the the first `something` is found, the search is stopped and the value is returned.
 
 1. In arguments parsed from the command line, like `node my-app.js --something 1234`.
 1. In the environment variables, for `something`.
@@ -39,8 +34,6 @@ If `something` can't be found, then it returns `undefined`.
 
 Neither `my-app.js.config.json` nor `my-app.js.defaults.config.json` are required, but you probably would like to have at least `my-app.js.defaults.config.json`.
 
-
-
 ## Debugging
 
 To get some insight on files loaded, configuration values read etcetera, enable debugging from the command line.
@@ -49,12 +42,9 @@ To get some insight on files loaded, configuration values read etcetera, enable 
 DEBUG='configvention:*' node my-app.js
 ```
 
-
-
 ## Versions
 
 For details, see [git commits](https://github.com/joelpurra/nodejs-configvention/commits), [git tags](https://github.com/joelpurra/nodejs-configvention/tags) and [published npm versions](https://www.npmjs.com/package/configvention?activeTab=versions).
-
 
 - Configvention >= v3.0.0:
   - [ECMAScript Module](https://nodejs.org/dist/latest/docs/api/esm.html) (ESM) [package](https://nodejs.org/dist/latest/docs/api/packages.html).
@@ -69,8 +59,6 @@ Some alternatives found glancing over npm modules [dependent](https://npmjs.org/
 
 - [nconfs](https://npmjs.org/package/nconfs): node.js convention/library for multiple nconf settings.
 - [reconf](https://npmjs.org/package/reconf): Recursive configuration file management with defaults and overrides for nconf.
-
-
 
 ---
 
