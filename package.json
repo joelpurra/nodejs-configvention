@@ -1,6 +1,10 @@
 {
   "name": "configvention",
   "version": "2.0.0",
+  "type": "module",
+  "engines": {
+    "node": ">=16.0.0"
+  },
   "author": {
     "name": "Joel Purra",
     "email": "code+npm@joelpurra.com",
@@ -8,7 +12,7 @@
   },
   "homepage": "https://github.com/joelpurra/nodejs-configvention",
   "description": "Configuration convention with a minimal readonly interface.",
-  "main": "./lib/configvention",
+  "exports": "./lib/configvention.js",
   "repository": {
     "type": "git",
     "url": "git@github.com:joelpurra/nodejs-configvention.git"

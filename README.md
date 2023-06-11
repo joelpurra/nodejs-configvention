@@ -9,7 +9,7 @@ A node.js *configuration convention* with a minimal readonly interface. Reads co
 ## Usage
 
 ```javascript
-var configuration = require("configvention");
+import configuration from "configvention";
 
 var something = configuration.get("something");
 ```
@@ -19,8 +19,15 @@ var something = configuration.get("something");
 ## Installation
 
 ```bash
-npm install --save configvention
+npm install --save configvention@latest
 ```
+
+- Configvention >= v3.0.0:
+  - [ECMAScript Module](https://nodejs.org/dist/latest/docs/api/esm.html) (ESM) [package](https://nodejs.org/dist/latest/docs/api/packages.html).
+  - For use with [Node.js v16 or later](https://github.com/nodejs/release).
+- Configvention <= [v2.0.0](https://www.npmjs.com/package/configvention?activeTab=versions):
+  - [CommonJS](https://nodejs.org/dist/latest/docs/api/modules.html) (CJS) legacy package.
+  - For use with all (?) Node.js versions.
 
 
 ## Convention
