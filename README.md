@@ -62,7 +62,7 @@ Some alternatives found glancing over npm modules [dependent](https://npmjs.org/
 
 ---
 
-Copyright &copy; 2012, 2016, [Joel Purra](https://joelpurra.com/).
+Copyright &copy; 2012, 2016, 2021, 2023, [Joel Purra](https://joelpurra.com/).
 All rights reserved.
 
 When using [nodejs-configvention](https://joelpurra.com/projects/nodejs-configvention/), comply to at least one of the three available licenses: [MIT](https://opensource.org/license/mit/), [BSD-2-Clause](https://opensource.org/license/bsd-2-clause/), [GPL-3.0-or-later](https://en.wikipedia.org/wiki/GNU_General_Public_License).

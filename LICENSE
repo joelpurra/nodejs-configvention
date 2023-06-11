@@ -1,5 +1,5 @@
 nodejs-configvention, a node.js configuration convention with a minimal readonly interface.
-Copyright (c) 2012, 2016, Joel Purra <https://joelpurra.com/>
+Copyright (c) 2012, 2016, 2021, 2023, Joel Purra <https://joelpurra.com/>
 All rights reserved.
 
 When using nodejs-configvention, comply to at least one of the three available licenses: BSD, MIT, GPL.
